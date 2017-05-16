@@ -26,7 +26,7 @@ gulp.task('html', function () {
     return gulp
         .src('_source/**/*.html')
         .pipe(htmlmin({collapseWhitespace: true}))
-        .pipe(gulp.dest('_public'))
+        .pipe(gulp.dest('.'))
         .pipe(browserSync.reload({
             stream: true
         }))
@@ -40,7 +40,7 @@ gulp.task('css', function () {
         .pipe(concat('style.min.css'))
         .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(header(banner, {pkg: pkg}))
-        .pipe(gulp.dest('_public/assets/css'))
+        .pipe(gulp.dest('assets/css'))
         .pipe(browserSync.reload({
             stream: true
         }))
@@ -54,7 +54,7 @@ gulp.task('js', function () {
         .pipe(uglify())
         .pipe(concat('script.min.js'))
         .pipe(header(banner, {pkg: pkg}))
-        .pipe(gulp.dest('_public/assets/js'))
+        .pipe(gulp.dest('assets/js'))
         .pipe(browserSync.reload({
             stream: true
         }))
@@ -65,25 +65,25 @@ gulp.task('copy', function () {
         'node_modules/bootstrap/dist/css/bootstrap.min.css',
         'node_modules/bootstrap/dist/css/bootstrap-theme.min.css',
         'node_modules/font-awesome/css/font-awesome.min.css'])
-        .pipe(gulp.dest('_public/assets/css'));
+        .pipe(gulp.dest('assets/css'));
     gulp.src([
         'node_modules/jquery/dist/jquery.min.js',
         'node_modules/jquery-easing/dist/jquery.easing.1.3.umd.min.js',
         'node_modules/bootstrap/dist/js/bootstrap.min.js'])
-        .pipe(gulp.dest('_public/assets/js'));
+        .pipe(gulp.dest('assets/js'));
     gulp.src([
         'node_modules/bootstrap/dist/fonts/*',
         'node_modules/font-awesome/fonts/*'])
-        .pipe(gulp.dest('_public/assets/fonts'));
+        .pipe(gulp.dest('assets/fonts'));
 
     gulp.src('_source/**/*.md')
-        .pipe(gulp.dest('_public/'));
+        .pipe(gulp.dest('.'));
     gulp.src('_source/assets/img/**/*')
-        .pipe(gulp.dest('_public/assets/img'));
+        .pipe(gulp.dest('assets/img'));
 });
 
 gulp.task('jekyll', function () {
-    const jekyll = child.spawn('jekyll', ['serve',
+    const jekyll = child.spawn('bundle', ['exec', 'jekyll', 'serve',
         '--watch',
         '--incremental',
         '--drafts'

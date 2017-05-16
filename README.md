@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/23Pstars/elektro08-web.svg?branch=master)](https://travis-ci.org/23Pstars/elektro08-web)
+## Elektro 2008 [![Build Status](https://travis-ci.org/23Pstars/elektro08-web.svg?branch=master)](https://travis-ci.org/23Pstars/elektro08-web)
 
-### Install dependencies
+### Dependencies
 `npm install`  
 
-### Deploy in browser
-`gulp dev`
+### Deploy
+Customize direktori `_source` dan jalankan `gulp dev`.

@@ -2,13 +2,16 @@ title: "Elektro 2008"
 subtitle: "Universitas Mataram"
 footer_text: "&copy; Copyleft 2017 &mdash; Teknik Elektro 2008"
 
-source: "_public"
-destination: "_site"
+facebook_url: "https://www.facebook.com/groups/elektro08"
+github_url: "https://github.com/23Pstars/elektro08-web"
 
 collections:
   - namets
 
 exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
   - package.json
   - node_modules
   - gulpfile.js
