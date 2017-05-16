@@ -1,0 +1,32 @@
+{
+  "name": "elektro08-web",
+  "title": "Elektro 2008",
+  "version": "1.0.0",
+  "homepage": "http://elektro08.com",
+  "author": "Ahmad Zafrullah",
+  "author_url": "https://zaf.web.id",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.13.0",
+    "child_process": "^1.0.2",
+    "del": "^2.2.2",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-concat": "^2.6.1",
+    "gulp-filter": "^4.0.0",
+    "gulp-header": "^1.8.7",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.8",
+    "jquery": "^1.11.3",
+    "jquery-easing": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/23Pstars/elektro08-web.git"
+  },
+  "dependencies": {}
+}

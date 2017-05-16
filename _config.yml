@@ -1,0 +1,15 @@
+title: "Elektro 2008"
+subtitle: "Universitas Mataram"
+footer_text: "&copy; Copyleft 2017 &mdash; Teknik Elektro 2008"
+
+source: "_public"
+destination: "_site"
+
+collections:
+  - namets
+
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - README.md
