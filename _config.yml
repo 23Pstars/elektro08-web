@@ -16,3 +16,4 @@ exclude:
   - node_modules
   - gulpfile.js
   - README.md
+  - IG_ACCOUNTS
