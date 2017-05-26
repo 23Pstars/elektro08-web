@@ -7,8 +7,8 @@
                 <hr class="star-primary">
                 <div class="row">
                     {% for namet in site.namets %}
-                    <div class="col-sm-2 namets-item">
-                        <a href="#Anunya{{ namet.nick }}" class="namets-link" data-toggle="modal">
+                    <div class="col-xs-3 col-sm-2 namets-item">
+                        <a href="#Anunya-{{ namet.name | slugify }}" class="namets-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
@@ -27,7 +27,7 @@
 
 <!-- The Modals -->
 {% for namet in site.namets %}
-<div class="portfolio-modal modal fade" id="Anunya{{ namet.nick }}" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="Anunya-{{ namet.name | slugify }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
