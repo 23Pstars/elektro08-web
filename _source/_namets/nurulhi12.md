@@ -1,6 +1,6 @@
 ---
 nick: nurulhi12
-name: Nurul Hidayah
+name: Nurul
 photo: /assets/img/namets/nurulhi12.jpg
-web: http://aksarasisunyi.tumblr.com/
+web: http://randatapaku.tumblr.com/
 ---

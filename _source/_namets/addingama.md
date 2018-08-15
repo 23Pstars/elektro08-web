@@ -2,5 +2,5 @@
 nick: addingama
 name: Adin
 photo: /assets/img/namets/addingama.jpg
-web: http://gama.web.id/
+web: https://www.youtube.com/watch?v=qLTKpv2OEj4&feature=share
 ---

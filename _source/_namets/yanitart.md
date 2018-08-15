@@ -1,6 +1,6 @@
 ---
 nick: yanitart
-name: wonderland
+name: 
 photo: /assets/img/namets/yanitart.jpg
-web: https://youtu.be/iWg_GjElB1M
+web: https://yanitart.blogspot.com/2018/06/1.html?m=1
 ---
