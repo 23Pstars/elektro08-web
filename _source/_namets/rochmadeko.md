@@ -1,5 +1,5 @@
 ---
 nick: rochmadeko
 name: Rochmad Eko
-photo: /assets/img/namets/rochmadeko.jpg
+photo: /assets/img/namets/rochmadeko.jpeg
 ---

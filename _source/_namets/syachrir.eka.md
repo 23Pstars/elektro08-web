@@ -1,6 +1,6 @@
 ---
 nick: syachrir.eka
-name: syachrir eka putra
-photo: /assets/img/namets/syachrir.eka.jpg
+name: Syachrir Eka Putra
+photo: /assets/img/namets/syachrir.eka.jpeg
 web: http://sasamboworld.com/
 ---
