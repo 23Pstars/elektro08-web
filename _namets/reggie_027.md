@@ -1,6 +1,6 @@
 ---
 nick: reggie_027
-name: Putu Regi Pratama
-photo: /assets/img/namets/reggie_027.jpg
-web: http://endomondo.com/profile/5728582
+name: ʀᴇɢɪ ᴘʀᴀᴛᴀᴍᴀ ᴘᴜᴛᴜ
+photo: /assets/img/namets/reggie_027.jpeg
+web: https://www.strava.com/athletes/3310458
 ---

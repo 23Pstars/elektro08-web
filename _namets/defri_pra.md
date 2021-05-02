@@ -1,5 +1,5 @@
 ---
 nick: defri_pra
 name: Muhammad Defrian Pratama
-photo: /assets/img/namets/defri_pra.jpg
+photo: /assets/img/namets/defri_pra.jpeg
 ---
