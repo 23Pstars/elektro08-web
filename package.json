@@ -2,7 +2,7 @@
   "name": "elektro08-web",
   "title": "Elektro 2008",
   "version": "1.0.0",
-  "homepage": "http://elektro08.com",
+  "homepage": "https://web.elektro08.com",
   "author": "Ahmad Zafrullah",
   "author_url": "https://zaf.web.id",
   "devDependencies": {
@@ -27,6 +27,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/23Pstars/elektro08-web.git"
-  },
-  "dependencies": {}
+  }
 }
