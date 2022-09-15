@@ -6,7 +6,7 @@
   "author": "Ahmad Zafrullah",
   "author_url": "https://zaf.web.id",
   "devDependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "browser-sync": "^2.13.0",
     "child_process": "^1.0.2",
     "del": "^2.2.2",
