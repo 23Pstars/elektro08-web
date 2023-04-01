@@ -21,7 +21,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.4",
     "gulp-util": "^3.0.8",
-    "jquery": "^1.11.3",
+    "jquery": "^3.5.0",
     "jquery-easing": "0.0.1"
   },
   "repository": {
