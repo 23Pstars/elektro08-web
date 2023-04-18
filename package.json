@@ -7,7 +7,7 @@
   "author_url": "https://zaf.web.id",
   "devDependencies": {
     "bootstrap": "^3.3.7",
-    "browser-sync": "^2.13.0",
+    "browser-sync": "^2.29.1",
     "child_process": "^1.0.2",
     "del": "^2.2.2",
     "font-awesome": "^4.6.3",
